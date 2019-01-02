@@ -4,7 +4,6 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-
   margin-top: 50px;
 `;
 
@@ -13,7 +12,6 @@ export const Repository = styled.div`
   background: #fff;
   border-radius: 3px;
   margin: 0 10px;
-
   display: flex;
   flex-direction: column;
 
@@ -54,6 +52,43 @@ export const Repository = styled.div`
 
       &:nth-child(2n - 1) {
         background: #f5f5f5;
+      }
+    }
+  }
+
+  div.buttons-container {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+
+    button {
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 12px;
+      font-weight: bold;
+
+      i {
+        margin-right: 3px;
+      }
+
+      &:nth-child(2n) {
+        border: 1px solid #c11927;
+        color: #c11927;
+
+        &:hover {
+          background: #aa1622;
+          color: #fff;
+        }
+      }
+
+      &:nth-child(2n - 1) {
+        border: 1px solid #116088;
+        color: #116088;
+
+        &:hover {
+          background: #0e5071;
+          color: #fff;
+        }
       }
     }
   }

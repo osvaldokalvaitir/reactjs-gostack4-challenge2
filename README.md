@@ -1,6 +1,6 @@
 # ReactJS - Desafio 2
 
-Aplicação GitHub Compare usando Create React App, ESLint, prop-types, styled-components, Axios, Moment e Font Awesome.
+Aplicação GitHub Compare usando Create React App, ESLint, prop-types, styled-components, Axios, Moment, Font Awesome e Local Storage.
 
 ## Desafio 2
 
@@ -33,7 +33,7 @@ Nesse desafio você irá melhorar a aplicação que desenvolvemos durante o segu
 ### Principal
 
 ![Main](/assets/main.png)
-Esta é a única tela, onde encontram-se todos os repositórios do GitHub que o usuário pesquisar na caixa de texto.
+Esta é a única tela, onde encontram-se todos os repositórios do GitHub que o usuário pesquisar na caixa de texto, podendo também, atualizar ou remover o repositório.
 
 ## Rotas
 

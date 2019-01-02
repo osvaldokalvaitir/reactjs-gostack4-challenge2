@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import { Container, Repository } from './styles';
 
-const CompareList = ({ repositories }) => (
+const CompareList = ({ repositories, removeRepository, updateRepository }) => (
   <Container>
     {repositories.map(repository => (
       <Repository key={repository.id}>
@@ -15,26 +15,32 @@ const CompareList = ({ repositories }) => (
 
         <ul>
           <li>
-            {repository.stargazers_count}
-            {' '}
+            {`${repository.stargazers_count} `}
             <small>stars</small>
           </li>
           <li>
-            {repository.forks_count}
-            {' '}
+            {`${repository.forks_count} `}
             <small>forks</small>
           </li>
           <li>
-            {repository.open_issues_count}
-            {' '}
+            {`${repository.open_issues_count} `}
             <small>issues</small>
           </li>
           <li>
-            {repository.lastCommit}
-            {' '}
+            {`${repository.lastCommit} `}
             <small>last commit</small>
           </li>
         </ul>
+        <div className="buttons-container">
+          <button type="button" onClick={() => updateRepository(repository.id)}>
+            <i className="fa fa-retweet" />
+            Atualizar
+          </button>
+          <button type="button" onClick={() => removeRepository(repository.id)}>
+            <i className="fa fa-trash" />
+            Excluir
+          </button>
+        </div>
       </Repository>
     ))}
   </Container>
@@ -55,6 +61,8 @@ CompareList.propTypes = {
       lastCommit: PropTypes.string,
     }),
   ).isRequired,
+  removeRepository: PropTypes.func.isRequired,
+  updateRepository: PropTypes.func.isRequired,
 };
 
 export default CompareList;
