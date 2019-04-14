@@ -22,11 +22,9 @@ Nesse desafio você irá melhorar a aplicação que desenvolvemos durante o segu
 
 ## Índice
 
-- [Telas](#telas)
+- [Capturas de Tela](#capturas-de-tela)
 
   - [Principal](#principal)
-
-- [Rotas](#rotas)
 
 - [Desenvolvimento](#desenvolvimento)
 
@@ -36,18 +34,18 @@ Nesse desafio você irá melhorar a aplicação que desenvolvemos durante o segu
 
   - [Execução do Projeto](#execução-do-projeto)
 
+- [Utilizados no Projeto](#utilizados-no-projeto)
+
   - [Bibliotecas](#bibliotecas)
 
-## Telas
+  - [APIs](#apis)
+
+## Capturas de Tela
 
 ### Principal
 
 ![Main](/assets/main.png)
 Esta é a única tela, onde encontram-se todos os repositórios do GitHub que o usuário pesquisar na caixa de texto, podendo também, atualizar ou remover o repositório.
-
-## Rotas
-
-- Busca um repositório do GitHub
 
 ## Desenvolvimento
 
@@ -62,6 +60,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 ### Execução do Projeto
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga a Execução de Projeto.
+
+## Utilizados no Projeto
 
 ### Bibliotecas
 
@@ -84,3 +84,13 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [prop-types](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/prop-types.md)
 
 - [styled-components](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/styled-components.md)
+
+### APIs
+
+- **[GitHub](https://api.github.com)**
+
+  - **Rotas**
+
+    - Usuários
+
+      - Busca dados de um repositório pertencente a um usuário
