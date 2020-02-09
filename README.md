@@ -44,7 +44,7 @@ Nesse desafio você irá melhorar a aplicação que desenvolvemos durante o segu
 
 ### Principal
 
-![Main](/assets/main.png)
+![Main](/.github/assets/main.png)
 Esta é a única tela, onde encontram-se todos os repositórios do GitHub que o usuário pesquisar na caixa de texto, podendo também, atualizar ou remover o repositório.
 
 ## Desenvolvimento
