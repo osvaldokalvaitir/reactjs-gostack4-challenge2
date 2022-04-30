@@ -1,96 +1,65 @@
-# ReactJS - Desafio 2
+<h1 align="center">
+    <img src="/.github/assets/logo.png"
+    width="200px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/reactjs-desafio2/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/reactjs-desafio2.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/reactjs-desafio2.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-desafio2.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-desafio2.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/reactjs-desafio2.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/reactjs-desafio2.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  ReactJS - GoStack 4 Challenge 2
+</h3>
 
-Aplicação GitHub Compare usando Create React App, ESLint, prop-types, styled-components, Axios, Moment, Font Awesome e Local Storage.
+<p align="center">
+  :octocat: GitHub Compare Application using Create React App, ESLint, prop-types, styled-components, Axios, Moment, Font Awesome, Local Storage and consuming the features of the GitHub API
+</p>
 
-## Desafio 2
+<p align="center">
+  :muscle: Click <a href="/.github/docs/challenge.md">here</a> to see the challenge description
+</p>
 
-Nesse desafio você irá melhorar a aplicação que desenvolvemos durante o segundo módulo com as seguintes funcionalidades:
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-gostack4-challenge2.svg?color=00A83A">
 
-- Armazene a lista de repositórios adicionados ao `localStorage` (https://www.w3schools.com/html/html5_webstorage.asp), ou seja, se a página for atualizada ou fechada/aberta a lista de repositórios deve ser a mesma;
-- Crie um botão em cada repositório para deletar o mesmo da listagem e remova-o do localStorage também;
-- Crie um botão em cada repositório para atualizar os dados dele buscando as novas informações de stars, forks, last commit, etc;
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-gostack4-challenge2.svg?color=00A83A">
 
-## Índice
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-- [Capturas de Tela](#capturas-de-tela)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-  - [Principal](#principal)
+<p align="center">
+  <a href="#computer-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-- [Desenvolvimento](#desenvolvimento)
+## :computer: Demo
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+![Demo](/.github/assets/demo.png)
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+## :wrench: Install and run
 
-  - [Execução do Projeto](#execução-do-projeto)
+Open terminal:
 
-- [Utilizados no Projeto](#utilizados-no-projeto)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/reactjs-gostack4-challenge2
 
-  - [Bibliotecas](#bibliotecas)
+# Entry in folder
+cd reactjs-gostack4-challenge2
 
-  - [APIs](#apis)
+# Install deps with npm or yarn
+npm install | yarn
 
-## Capturas de Tela
+# Launch the app with npm or yarn
+npm start | yarn start
+```
 
-### Principal
+## :memo: License
 
-![Main](/.github/assets/main.png)
-Esta é a única tela, onde encontram-se todos os repositórios do GitHub que o usuário pesquisar na caixa de texto, podendo também, atualizar ou remover o repositório.
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-## Desenvolvimento
+---
 
-### Configuração do Ambiente
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md) e siga `Execução de Projeto para Desenvolvimento` ou `Construção e Execução de Projeto para Produção`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-- [Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
-
-- [eslint-config-airbnb](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-config-airbnb.md)
-
-- [eslint-plugin-import](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-import.md)
-
-- [eslint-plugin-jsx-a11y](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-jsx-a11y.md)
-
-- [eslint-plugin-react](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-react.md)
-
-- [Font Awesome](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/font-awesome.md)
-
-- [Moment](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/moment.md)
-
-- [prop-types](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/prop-types.md)
-
-- [styled-components](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/styled-components.md)
-
-### APIs
-
-- **[GitHub API](https://github.com/osvaldokalvaitir/projects-settings/blob/master/api/github-api.md)**
-
-  - **Rotas**
-
-    - Usuários
-
-      - Busca dados de um repositório pertencente a um usuário
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
